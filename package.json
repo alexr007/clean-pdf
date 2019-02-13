@@ -1,13 +1,14 @@
 {
   "name": "clean-express",
   "version": "1.0.0",
-  "description": "",
   "scripts": {
-    "start": "node src/server.js"
+    "start_js": "node src/server.js",
+    "start_ts": "tsc && node dist/main.js",
+    "start": "tsc && node dist/main.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "@types/node": "^11.9.3",
+    "express": "^4.16.4",
+    "typescript": "^3.3.3"
   }
 }
