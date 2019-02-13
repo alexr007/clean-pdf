@@ -1,0 +1,6 @@
+brew install heroku/brew/heroku
+heroku keys:add
+heroku login
+heroku git:remote -a pdf-experiments
+git push heroku master --force
+heroku open
