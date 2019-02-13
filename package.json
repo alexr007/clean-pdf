@@ -4,7 +4,8 @@
   "scripts": {
     "start_js": "node src/server.js",
     "start_ts": "tsc && node dist/main.js",
-    "start": "tsc && node dist/main.js"
+    "start": "tsc && node dist/main.js",
+    "deploy_to_heroku": "git push heroku master --force"
   },
   "dependencies": {
     "@types/node": "^11.9.3",
