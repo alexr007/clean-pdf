@@ -38,7 +38,7 @@ $ ls -la *.pdf
 
 how to download this file:
 ```bash
-$ curl -OJ http://localhost:3000/inv/10
+$ curl -OJ http://localhost:3000/pdf/10
 ```
 **file_10.pdf** should be downloaded to your local folder
 
