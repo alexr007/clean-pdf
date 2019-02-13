@@ -9,3 +9,8 @@ heroku open
 
 generating keys:
 https://devcenter.heroku.com/articles/keys
+
+special for puppeteer:
+https://github.com/jontewks/puppeteer-heroku-buildpack
+heroku buildpacks:add https://github.com/jontewks/puppeteer-heroku-buildpack
+heroku buildpacks:set jontewks/puppeteer
