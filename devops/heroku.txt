@@ -14,3 +14,27 @@ special for puppeteer:
 https://github.com/jontewks/puppeteer-heroku-buildpack
 heroku buildpacks:add https://github.com/jontewks/puppeteer-heroku-buildpack
 heroku buildpacks:set jontewks/puppeteer
+
+
+heroku plugins:install heroku-repo
+heroku repo:purge_cache -a pdf-experiments
+git commit --allow-empty -m "Purge cache"
+
+https://intellij-support.jetbrains.com/hc/en-us/community/posts/115000204010-Format-Space-within-braces-for-ES6-import-export
+
+https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md
+
+curl -sL https://deb.nodesource.com/setup_8.x | sudo bash -
+sudo apt install node-typescript
+sudo apt install nodejs
+
+sudo apt install libasound2 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgcc1 libgconf-2-4 libgdk-pixbuf2.0-0 libglib2.0-0 libgtk-3-0 libnspr4 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 libnss3
+
+curl http://localhost:3000
+curl http://localhost:3000/inv/10
+curl -OJ http://localhost:3000/pdf/10
+
+heroku buildpacks:set https://github.com/alexr007/puppeteer-heroku.git -a pdf-experiments
+heroku buildpacks:clear -a pdf-experiments
+
+git commit --allow-empty -m "nudge" && git push heroku master
