@@ -1,12 +1,10 @@
-const express = require('express');
+import { NestFactory } from '@nestjs/core';
+import { AppModule } from './app.module';
 
-const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.get('/', (req, resp) => {
-    resp.send('It Works (TS version)');
-});
-
-app.listen(PORT, () => {
-    console.log(`Server started on port: ${PORT}`);
-});
+async function bootstrap() {
+  const app = await NestFactory.create(AppModule);
+  await app.listen(PORT);
+}
+bootstrap();
