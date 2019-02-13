@@ -10,7 +10,7 @@ $ npm install
 $ npm start
 ```
 
-## Deploy to heroku
+## Heroku deployment
 
 ```bash
 $ npm run deploy_to_heroku
