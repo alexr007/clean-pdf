@@ -1,0 +1,2 @@
+git commit --allow-empty -m "nudge"
+git commit --allow-empty -m "nudge" && git push heroku master

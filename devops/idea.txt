@@ -1,0 +1,1 @@
+https://intellij-support.jetbrains.com/hc/en-us/community/posts/115000204010-Format-Space-within-braces-for-ES6-import-export

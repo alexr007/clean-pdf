@@ -1,0 +1,3 @@
+curl http://localhost:3000
+curl http://localhost:3000/inv/10
+curl -OJ http://localhost:3000/pdf/10
